@@ -72,5 +72,5 @@ function draw(){
     platform.display();
     constrainedLog.display();
     strokeweight(3);
-	line(bird.body.position.x,bird.body.position.y,constrainedLog.body.position.x,,constrainedLog.body.position.y);
+	line(bird.body.position.x,bird.body.position.y,constrainedLog.body.position.x,constrainedLog.body.position.y);
 }
